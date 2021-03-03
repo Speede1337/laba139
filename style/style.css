@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.container .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: cornflowerblue;
+  padding: 20px;
+  margin: 10px 20px;
+}
+
+.container .nav_link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: tomato;
+}
+
+.container .nav_link:nth-last-child(1) {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.container .paragraph {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+.container .article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+}
+
+.container .article_section {
+  width: 70%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: beige;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.container .article_info {
+  width: 15%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  background-color: floralwhite;
+  border: 1px solid antiquewhite;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.container .aside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+}
+
+.container .aside_vacancy {
+  width: 15%;
+  background-color: brown;
+  padding: 10px;
+  margin: 0 20px 20px 0;
+  color: white;
+}
+
+.container .aside_description {
+  width: 78%;
+  background-color: chocolate;
+  padding: 10px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+.container .aside_btn {
+  width: 5.5%;
+  background-color: chocolate;
+  padding: 35px 10px;
+  margin-bottom: 20px;
+}
+
+.container .aside_link {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  background-color: brown;
+  border-radius: 10%;
+  border: 1px solid darkred;
+}
+/*# sourceMappingURL=style.css.map */
