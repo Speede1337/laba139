@@ -1,3 +1,3 @@
 # laba139
 
-page [google.com]
+page [https://speede1337.github.io/laba139/]
