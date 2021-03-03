@@ -39,6 +39,16 @@
   margin-right: 0;
 }
 
+.container .nav_link:hover {
+  background-color: brown;
+  color: cornflowerblue;
+}
+
+.container .nav_link:active {
+  background-color: rgba(165, 42, 42, 0.8);
+  color: rgba(100, 148, 237, 0.8);
+}
+
 .container .paragraph {
   font-size: 24px;
   font-weight: bold;
@@ -114,5 +124,15 @@
   background-color: brown;
   border-radius: 10%;
   border: 1px solid darkred;
+}
+
+.container .aside_link:hover {
+  background-color: rgba(165, 42, 42, 0.712);
+  color: cornflowerblue;
+}
+
+.container .aside_link:active {
+  background-color: rgba(165, 42, 42, 0.425);
+  color: rgba(159, 52, 209, 0.8);
 }
 /*# sourceMappingURL=style.css.map */

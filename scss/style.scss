@@ -25,6 +25,14 @@ $default-font: 'Noto Sans JP', sans-serif;
             margin-left: auto;
             margin-right: 0;
         }
+        &_link:hover {
+            background-color: rgb(165, 42, 42);
+            color:rgb(100, 149, 237);
+        }
+        &_link:active {
+            background-color: rgba(165, 42, 42, 0.8);
+            color:rgba(100, 148, 237, 0.8);
+        }
     }
     .paragraph {
         font-size: 24px;
@@ -84,6 +92,14 @@ $default-font: 'Noto Sans JP', sans-serif;
             background-color: rgb(165, 42, 42);
             border-radius: 10%;
             border: 1px solid rgb(139, 0, 0);
+        }
+        &_link:hover {
+            background-color: rgba(165, 42, 42, 0.712);
+            color:rgb(100, 149, 237);
+        }
+        &_link:active {
+            background-color: rgba(165, 42, 42, 0.425);
+            color:rgba(159, 52, 209, 0.8);
         }
     }
 }
